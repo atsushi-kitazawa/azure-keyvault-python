@@ -1,0 +1,2 @@
+az login --use-device-code
+az keyvault set-policy --name kv-python-test --object-id <ID> --secret-permissions delete get list set
